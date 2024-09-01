@@ -9,12 +9,11 @@
 <body>
   <h1>canadian weather app</h1>
   <form id="weather-form">
-    <input type="text" id="location" placeholder="Enter a location">
-    <button id="submit">Get Weather</button>
+    <label for="location">Enter a station name:</label>
+    <input type="text" id="location" placeholder="e.g. Hamilton">
+    <button id="submit" type="submit">Get Weather</button>
   </form>
   <div id="weather-data"></div>
-
-  <script src="https://cdn.jsdelivr.net/npm/fetch@2.0.1/dist/fetch.umd.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
